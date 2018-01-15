@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-6">
+            <input type="text" placeholder="tiếng việt" [(ngModel)]="addtv">
+            <input type="text" placeholder="English" [(ngModel)]="adden">
+            <button type="button" class="btn btn-success btn-sm" (click)="addTV()">Thêm</button>
+        </div>
+        <div class="col-sm-6">
+            <tr>
+                <td class="pr-5">Tiếng Việt</td>
+                <td>tiếng anh</td>
+            </tr>
+            <tr *ngFor="let word of arrWords">
+                <td class="pr-5 pt-2" [ngStyle]="{ color:word.Memorized ? 'green' : 'red'}">{{word.vn}}</td>
+                <td class="pr-5 pt-2" [ngStyle]="{ color:word.Memorized ? 'green' : 'red'}">{{word.en}}</td>
+            </tr>
+        </div>
+    </div>
+
+</div>

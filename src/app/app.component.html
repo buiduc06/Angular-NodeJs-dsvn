@@ -1,20 +1,65 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="wrap">
+    <header>
 
+        <div class="header-logo">
+            <p>
+                <img src="assets/image/LOGO.png" alt="">
+                <small id="timer">chủ nhật , 14/01/2018</small>
+                <img src="assets/image/Poly.png" id="poly" alt="">
+            </p>
+        </div>
+        <div class="header-menu">
+            <ul>
+                <li><a routerLink="/home">Home</a></li>
+                <li><a routerLink="/timve">TÌM VÉ</a></li>
+                <li><a routerLink="/thongtingiaodich">THÔNG TIN ĐẶT CHỖ</a></li>
+                <li><a routerLink="/kiemtrave">KIỂM TRA VÉ</a></li>
+                <li><a routerLink="/thongtinhanhtrinh">GIỜ TÀU - GIÁ VÉ</a></li>
+                <li><a routerLink="/khuyenmai">KHUYẾN MẠI</a></li>
+                <li><a routerLink="/cacquydinh">CÁC QUY ĐỊNH</a></li>
+                <li><a routerLink="/huongdan">HƯỚNG DẪN</a></li>
+                <li><a routerLink="/lienhe">LIÊN HỆ</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="container-full main-content">
+
+        <div class="wraper-content">
+
+            <!-- phần dữ liệu động -->
+            <router-outlet></router-outlet>
+            <!-- hết phần dữ liệu động -->
+        </div>
+
+
+        <div class="fix-content wow bounceInDown">
+            <h4>KHUYẾN CÁO HÀNH KHÁCH MUA VÉ TÀU TẾT 2018</h4>
+            <div class="post-content">
+                <p>Để thuận tiện cho việc mua vé đi tàu dịp Tết Mậu Tuất 2018, Tổng công ty Đường sắt Việt Nam khuyến cáo đến quý khách hàng một số nội dung sau:</p>
+                <p>- Quý khách khi mua vé và đi tàu cần mang giấy tờ tùy thân được pháp luật công nhận (bản chính) và có thông tin trùng khớp với thẻ lên tàu.</p>
+                <p>- Không mua vé qua các đối tượng trung gian “cò mồi, chợ đen” mà chỉ mua vé qua website của Ngành đường sắt www.dsvn.vn mua trực tiếp tại các cửa bán vé của các ga hoặc tại các đại lý bán vé của ĐSVN để tránh tình trạng mua phải vé giả,
+                    vé không đúng thông tin, vé bị cạo sửa giá vé, ngày đi tàu (không có giá trị đi tàu)</p>
+                <p>Trân trọng thông báo!</p>
+            </div>
+
+        </div>
+
+
+        <footer>
+            <div class="menu-footer">
+                <ul>
+                    <li><a href="">Tìm vé</a></li>
+                    <li><a href="">Thông Tin đặt chỗ</a></li>
+                    <li><a href="">giờ tàu - giá vé</a></li>
+                    <li><a href="">hướng dẫn</a></li>
+                    <li><a href="">liên hệ</a></li>
+
+                </ul>
+            </div>
+            <small class="text-warning">develop by ducpanda</small>
+        </footer>
+    </div>
+    <div class="banner">
+        <img src="assets/image/banner.jpg" alt="">
+    </div>
+</div>

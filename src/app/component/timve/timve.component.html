@@ -1,0 +1,102 @@
+<div class="row wow fadeInRight">
+    <div class="col-sm-6 container timveform">
+        <h3>Đặt Mua Vé Máy Bay</h3>
+        <!-- lay ngay -->
+        <hr>
+        <div class="row">
+            <div class="col-sm-6 formlaydl">
+                <td>
+                    <tr><small>điểm đi</small></tr>
+                    <tr>
+                        <div class="col-12">
+                            <input type="text" class="form-control txtfr">
+                        </div>
+                    </tr>
+                </td>
+                <br>
+                <td>
+                    <tr><small>ngày đi</small></tr>
+                    <tr>
+                        <div class="col-12">
+                            <input class="form-control form-control-sm" type="date" value="2018-01-14" id="example-date-input">
+                        </div>
+                    </tr>
+                </td>
+
+            </div>
+            <div class="col-sm-6 formlaydl">
+                <td>
+                    <tr><small>điểm đến</small></tr>
+                    <tr>
+                        <div class="col-12">
+                            <input type="text" class="form-control txtfr">
+                        </div>
+                    </tr>
+                </td>
+                <br>
+                <td>
+                    <tr><small>ngày về</small></tr>
+                    <tr>
+                        <div class="col-12">
+                            <input class="form-control form-control-sm " type="date" value="2011-08-19" id="example-date-input">
+                        </div>
+                    </tr>
+                </td>
+            </div>
+        </div>
+        <!-- end lay ngay -->
+        <br>
+
+        <hr>
+        <div class="col-sm-12 set-songuoi">
+            <tr>
+                <td>người lớn</td>
+                <td>
+                    <select class="form-control form-control-sm">
+              <option value="1" *ngFor="let ShowTuoi of ShowTuoi">{{ShowTuoi}}</option>
+            </select>
+                </td>
+                <td><small>( từ 12 tuổi trở lên )</small></td>
+            </tr>
+            <tr>
+                <td>trẻ em</td>
+                <td>
+                    <select name="" class="form-control form-control-sm">
+              <option value="1">1</option>
+              <option value="1">2</option>
+            </select>
+                </td>
+                <td><small>( từ 2 đến 12 tuổi )</small></td>
+            </tr>
+
+            <tr>
+                <td>em bé</td>
+                <td>
+                    <select name="" class="form-control form-control-sm">
+              <option value="1">1</option>
+              <option value="2">2</option>
+                </select>
+                </td>
+                <td><small>( dưới 2 tuổi )</small></td>
+            </tr>
+
+        </div>
+        <hr>
+        <div class="col-sm-12">
+            <div class="col-sm-3 btn-seach1">
+                <button type="submit" class="btn btn-success">Tìm Chuyến Bay</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-sm-6 banner-timve">
+        <div class="row time-chuyenbay">
+            <div class="col-sm-4"><span>các chuyến bay :</span></div>
+            <div class="col-sm-8">
+                <marquee width="100%">19:00:01 Ho Chi Minh City - Hue ; 19:30:01 Ho Chi Minh City - macao </marquee>
+            </div>
+        </div>
+        <img src="assets/image/banner-tet-2018.jpg" class="wow tada" alt="">
+    </div>
+
+</div>

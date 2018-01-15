@@ -1,1 +1,242 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* nhung bootstrap */
+
+@import './styles/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css';
+
+/* nhung wow */
+
+@import './styles/wowjs/animate.css';
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.wrap {
+    background-color: #f0f1f3;
+    height: auto;
+    width: auto;
+}
+
+
+/* header */
+
+header {
+    background-color: #f0f1f3;
+    min-height: 130px;
+}
+
+header .header-logo {
+    background-color: #018ccd;
+    margin-bottom: 10px;
+    min-height: 90px;
+}
+
+header .header-logo p {
+    width: 75%;
+    margin: auto;
+}
+
+header .header-logo #poly {
+    width: 80px;
+    margin-top: 20px;
+    float: right;
+}
+
+header .header-logo smail {
+    color: white;
+}
+
+header .header-menu {
+    background-color: #2fa4e7;
+}
+
+header .header-menu ul {
+    width: 75%;
+    margin: auto;
+}
+
+header .header-menu ul li {
+    list-style: none;
+    display: inline-table;
+    border-left: 1px solid white;
+    padding: 5px;
+}
+
+header .header-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header .header-menu ul li:hover {
+    background-color: #428bca;
+}
+
+
+/* main content */
+
+.main-content {
+    width: 75%;
+    min-height: 500px;
+    margin: auto;
+    background-color: white;
+    padding: 15px 12px 15px 25px;
+}
+
+.wraper-content {
+    height: auto;
+}
+
+.fix-content {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.fix-content h4 {
+    background-color: #dd5600;
+    padding: 10px 10px 10px 15px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+}
+
+.fix-content .post-content {
+    padding: 10px 10px 10px 15px;
+}
+
+
+/* banner */
+
+.banner img {
+    position: fixed;
+    bottom: 20px;
+    left: 50px;
+}
+
+
+/* footer */
+
+footer {
+    height: 50px;
+    color: #f0f1f3;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+footer .menu-footer {
+    background-color: #ccc;
+}
+
+footer .menu-footer ul {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+footer .menu-footer ul li {
+    list-style: none;
+    display: inline-table;
+    border-right: 1px solid white;
+    padding: 0px 8px 0px 8px;
+    font-size: 14px;
+}
+
+footer smail {
+    font-size: 10px;
+    color: #999;
+}
+
+
+/* home tim ve */
+
+.set-songuoi td {
+    padding-right: 25px;
+    padding-bottom: 15px;
+}
+
+.set-songuoi td select {
+    width: 100px;
+}
+
+.btn-seach1 {}
+
+.formlaydl td input {
+    margin-left: -15px;
+    margin-top: 5px;
+}
+
+.timveform {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.formlaydl td .txtfr {
+    height: 34px;
+}
+
+.timveform h3 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif, Cochin, Georgia, Times, Times New Roman, serif;
+    color: #018ccd;
+}
+
+small,
+td {
+    text-transform: capitalize;
+}
+
+.banner-timve img {
+    border-radius: 5px;
+}
+
+.time-chuyenbay {
+    margin-bottom: 10px;
+}
+
+.time-chuyenbay span {
+    text-transform: uppercase;
+    color: #dd5600;
+    font-size: 12px;
+    /* font-weight: bold; */
+}
+
+
+/* tra cuu ve dat cho css */
+
+.formtracuutt form {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+}
+
+.formtracuutt input {
+    margin-bottom: 15px;
+    width: 400px;
+}
+
+.formtracuutt button {
+    margin-left: 15px;
+}
+
+.formtracuutt {
+    margin-bottom: 30px;
+}
+
+.formtracuutt h4 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    background: #0082c4;
+    width: 310px;
+    padding: 5px 10px 5px 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
